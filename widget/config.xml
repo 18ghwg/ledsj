@@ -29,18 +29,18 @@
 	<permission name="hardware"/>
 	<preference name="forbiddenSchemes" value="alipay,alipays,tmall,taobao,itaobao,alipayshare,alipayqr,taobaohd,zhuzhancaipiao4ipad,laiwangc6e34c6bf,mdict,omnifocus,qqnew,qqnews,iqiyi,qiyi-iphone,ppstream,QIYIHD-iPad,sohu-SViPad,sohuvideohd,sohuvideo-iphone,sohuvideo,youku,LetviPhone,bilibili,tudou,pptv,imgotv,funshionmovieiphone,com.baofeng.play,baiduvideoiphone,bdviphapp,tenvideohd,tenvideo,tenvideo2,tenvideo3,alipay://,alipays://,alipayshare://,tmall://,taobao://,itaobao://,taobaohd://,zhuzhancaipiao4ipad://,laiwangc6e34c6bf://,qqnew://,qqnews://,iqiyi://,qiyi-iphone://,ppstream://,QIYIHD-iPad://,sohu-SViPad://,sohuvideohd://,sohuvideo-iphone://,sohuvideo://,youku://,LetviPhone://,bilibili://,tudou://,pptv://,imgotv://,funshionmovieiphone://,baiduvideoiphone://,bdviphapp://,tenvideohd://,tenvideo://,tenvideo2://,tenvideo3://,com.56Video://com.baofeng.play://"/>
 	<feature name="wx">
-		<param name="urlScheme" value="wxbb756e33196dc797"/>
-		<param name="apiKey" value="wxbb756e33196dc797"/>
-		<param name="apiSecret" value="5718456cdd05bc468fbd2f27acfedb8c"/>
+		<param name="urlScheme" value=""/>
+		<param name="apiKey" value=""/>
+		<param name="apiSecret" value=""/>
 	</feature>
     <feature name="LBAirDrop">
-        <param name="appID" value="14236"/>
-        <param name="AppSecret" value="0aadc67a9919b3f38434721ab9a53070"/>
-        <param name="appID_android" value="14236"/>
-        <param name="AppSecret_android" value="0aadc67a9919b3f38434721ab9a53070"/>
+        <param name="appID" value=""/>
+        <param name="AppSecret" value=""/>
+        <param name="appID_android" value=""/>
+        <param name="AppSecret_android" value=""/>
     </feature> 	
 	<feature name="QQPlus">
-		<param name="urlScheme" value="a6140999c2369c9d17a8d7cb579dafda"/>
+		<param name="urlScheme" value=""/>
 		<param name="apiKey" value=""/>
 	</feature>
 </widget>
