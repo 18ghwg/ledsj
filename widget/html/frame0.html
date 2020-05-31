@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
     <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
-    <title></title> 
+    <title></title>
  <!--     <input style="border-radius: 5rem;width: 40%;font-size: 0.5rem;text-align:  center;background: rgba(0,0,0,.06);height: 1.5rem;" type="text" placeholder="懒得找 搜一下" id="ff_wd">-->
-  
+
     <link rel="stylesheet" type="text/css" href="../css/api.css"/>
     <link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
     <link rel="stylesheet" type="text/css" href="../css/aui.css" />
@@ -62,29 +62,16 @@
     </style>
 </head>
 <body style="background-color:#efefef">
-<!--<div class="aui-searchbar" id="search" style="background-color:#fff;">
-    <div style="border-radius: 5rem;height: 1.7rem;line-height: 1.7rem;background: rgba(0,0,0,.06);" class="aui-searchbar-input aui-border-radius">
-      <i class="aui-iconfont aui-icon-search"></i>
-      <input style="width: 100%;height: 1.7rem;" type="text" placeholder="搜索最新电影看看吧！！！" id="ff_wd">
-    <div class="aui-btn aui-btn-info aui-btn-block" tapmode="" onclick="toSearch()" style="width: 50px;height: 1.7rem;line-height: 1.7rem;font-size: 0.6rem;position: absolute;margin-left: -3.4rem;border-radius: 0 5rem 5rem 0;    background: linear-gradient(to right,#66B3FF 0,#CAFFFF 100%);">搜索</div>
-</div>  
-  </div>-->
   <div id="aui-slide" class="fx-box">
     <div id="slidebox" class="aui-slide-wrap">
-
-                <!--顶部横幅未加载完成时的提示-->
-                  <img id="bpic" src="../image/loading.png"  onClick="UnloadedCompleted()">
-                <!--顶部横幅未加载完成时的提示-->
-
+      <!--顶部横幅未加载完成时的提示-->
+        <img id="bpic" src="../image/loading.png"  onClick="UnloadedCompleted()">
+      <!--顶部横幅未加载完成时的提示-->
     </div>
     <div class="aui-slide-page-wrap"><!--分页容器--></div>
   </div>
-
-
-                                    <div class="list-title-r" >    <!--右侧顶部右侧文字广告位-->
-										
-                                    </div>
-                                  </div>
+    <div class="list-title-r" >    <!--右侧顶部右侧文字广告位--></div>
+  </div>
 
     <section class="aui-grid aui-margin-b-15" style="top: -80px;">
 		  <div  class="list-title" style="text-align: center;position: relative;height: 55px;padding-top: 0;margin-top: 0.5rem;cursor: pointer;background-color: #fff;width: 96%;margin:  0 auto;border-radius: 0.4rem 0.4rem 0 0;">
@@ -93,9 +80,9 @@
     <div style="margin: 0 auto;width: 96%;">
       <div class="aui-row mzt-niubi" id="div_list_f"> 	  <!--VIP观影区 调用-->
     <div id="aui-slide" class="fx-bon">
-    <div id="slidebox" class="aui-slide-wrap">	  
-                  <!--VIP 观影区未加载完成时的提示-->	  
-		          <section class="aui-scrollView">				
+    <div id="slidebox" class="aui-slide-wrap">
+                  <!--VIP 观影区未加载完成时的提示-->
+		          <section class="aui-scrollView">
                   <div class="aui-col-xs-3" tapmode onClick="UnloadedCompleted()">
                   <i class="aui-iconfont"><img src="../image/app/ico_loading.gif"/></i>
                   <div class="aui-grid-label">无网络</div>
@@ -154,7 +141,7 @@
                   <i class="aui-iconfont"><img src="../image/app/ico_loading.gif"/></i>
                   <div class="aui-grid-label">无网络</div>
                   </div>
-				  
+
                   </div>
                   <!--VIP 观影区未加载完成时的提示-->
     </div>
@@ -163,48 +150,47 @@
       </div>
 	    </div>
 	      </div>
-<div style="margin-top: 10px;height: 38px;background-image: url(../image/b_09.png);background-size: cover;width: 88%;margin-left: 6%;box-shadow: 0px 20px 20px 8px #505050;border-radius: 0.5rem 0.5rem 0 0;" onClick="ZhiBo('')"></div>
+		  <div  class="fxbow">
+    <div id="lrbox" class="aui-slide-wrap" style="margin: 10px;border-radius:0.5rem 0.5rem 0 0;">
+
+                <!--底部横幅未加载完成时的提示-->
+                  <img id="bpic" src="../image/b_09.png"  onClick="UnloadedCompleted()">
+                <!--底部横幅未加载完成时的提示-->
+    </div> </div>
+<!--<div style="margin-top: 10px;height: 38px;background-image: url(../image/b_09.png);background-size: cover;width: 88%;margin-left: 6%;box-shadow: 0px 20px 20px 8px #505050;border-radius: 0.5rem 0.5rem 0 0;" onClick="ZhiBo('')"></div>-->
   <div  class="fx-bow">
-    <!--<div id="lrbox" class="aui-slide-wrap" style="margin: 10px;border-radius:0.5rem;">-->
+    <div class="list-title">
+      <div class="list-title-l" style="margin-top: 5px;">
+        <span style="color:#000;font-size: 0.8rem;"><img src="../image/a_45.png "/ style="width: 4px;display:  inline;vertical-align: middle;">&nbsp;&nbsp;猜你喜欢</span>
+      </div>
+      <section class="aui-grid aui-margin-b-15" style="background: #fff;">
+      <div class="aui-row" id="div_list" style="margin-top: 10px;">   <!--首页底部图标广告位-->
+            <!--未加载完成时的提示-->
+				<div class="aui-col-xs-4" tapmode onClick="UnloadedCompleted()">
+				  <i class="aui-iconfontt"><div class="myui-label-bb">电影</div><img src="../image/tuijian.png"/></i>
+                <div class="myui-labell">当前没有网络哦</div>
+              </div>
 
-                <!--底部横幅未加载完成时的提示-->
-                 <!-- <img id="bpic" src="../image/default_picture/shuaxin.png"  onClick="UnloadedCompleted()">-->
-                <!--底部横幅未加载完成时的提示-->
-   <!-- </div>-->
-                                  <div class="list-title">
-                                    <div class="list-title-l" style="margin-top: 5px;">
-                                      <span style="color:#000;font-size: 0.8rem;"><img src="../image/a_45.png "/ style="width: 4px;display:  inline;vertical-align: middle;">&nbsp;&nbsp;猜你喜欢</span>
-                                    </div>
-                    <section class="aui-grid aui-margin-b-15" style="background: #fff;">
-                    <div class="aui-row" id="div_list" style="margin-top: 10px;">   <!--首页底部图标广告位-->
+				<div class="aui-col-xs-4" tapmode onClick="UnloadedCompleted()">
+				  <i class="aui-iconfontt"><div class="myui-label-bb">电影</div><img src="../image/tuijian.png"/></i>
+                <div class="myui-labell">当前没有网络哦</div>
+              </div>
 
+				<div class="aui-col-xs-4" tapmode onClick="UnloadedCompleted()">
+				  <i class="aui-iconfontt"><div class="myui-label-bb">电影</div><img src="../image/tuijian.png"/></i>
+                <div class="myui-labell">当前没有网络哦</div>
+              </div>
 
-            <!--未加载完成时的提示-->		
 				<div class="aui-col-xs-4" tapmode onClick="UnloadedCompleted()">
 				  <i class="aui-iconfontt"><div class="myui-label-bb">电影</div><img src="../image/tuijian.png"/></i>
                 <div class="myui-labell">当前没有网络哦</div>
               </div>
-			  										
-				<div class="aui-col-xs-4" tapmode onClick="UnloadedCompleted()">
-				  <i class="aui-iconfontt"><div class="myui-label-bb">电影</div><img src="../image/tuijian.png"/></i>
-                <div class="myui-labell">当前没有网络哦</div>
-              </div>
-			  
-				<div class="aui-col-xs-4" tapmode onClick="UnloadedCompleted()">
-				  <i class="aui-iconfontt"><div class="myui-label-bb">电影</div><img src="../image/tuijian.png"/></i>
-                <div class="myui-labell">当前没有网络哦</div>
-              </div>
-			  
-				<div class="aui-col-xs-4" tapmode onClick="UnloadedCompleted()">
-				  <i class="aui-iconfontt"><div class="myui-label-bb">电影</div><img src="../image/tuijian.png"/></i>
-                <div class="myui-labell">当前没有网络哦</div>
-              </div>
-			  
+
 			  	<div class="aui-col-xs-4" tapmode onClick="UnloadedCompleted()">
 				  <i class="aui-iconfontt"><div class="myui-label-bb">电影</div><img src="../image/tuijian.png"/></i>
                 <div class="myui-labell">当前没有网络哦</div>
               </div>
-			  
+
 				<div class="aui-col-xs-4" tapmode onClick="UnloadedCompleted()">
 				  <i class="aui-iconfontt"><div class="myui-label-bb">电影</div><img src="../image/tuijian.png"/></i>
                 <div class="myui-labell">当前没有网络哦</div>
@@ -235,7 +221,7 @@
   {{~}}
 </script>
 <script type="text/x-dot-template" id="lrtpl">
-<img id="bpic" src="http://ys.ledian99.cn/{{=it.picurl}}" style="border-radius:0.5rem;box-shadow:0.1rem 0.1rem 0.4rem rgba(99, 99, 99, 0.3);" onclick="imgUrl('{{=it.linkurl}}')">
+<img id="bpic" src="http://ys.ledian99.cn/{{=it.picurl}}" style="border-radius:0.5rem 0.5rem 0 0;width: 94%;margin: 0 auto;box-shadow: 0px 20px 20px 8px #505050;" onclick="imgUrl('{{=it.linkurl}}')">
 </script>
 <script type="text/x-dot-template" id="wzttpl">
  <span style="color:#f52737;font-size: 0.6rem" onclick="toBanner('{{=it.linkurl}}')">{{=it.name}}</span>
@@ -248,7 +234,7 @@
 <script type="text/x-dot-template" id="navtjtpl">
 /*底部图标模板*/
   {{~ it.data : value : index }}
-		
+
   		<div class="aui-col-xs-4 pt-list" onclick="toBannerr('{{= value. linkurl }}')" >
 		  <i class="aui-iconfontt"><div class="myui-label-bb">{{= value. content }}</div><img src="http://ys.ledian99.cn/{{= value. picurl }}"/></i>
           <div class="myui-labell" >{{= value. name }}</div>
@@ -276,9 +262,9 @@
 			 * -36px 子元素li的高度
 			 * 3000  滚动间隔时间
 			 * 每次滚动持续时间可到css文件中修改
-			 */	
-			myScroll.upScroll("demo","-36px",3000);	
-			
+			 */
+			myScroll.upScroll("demo","-36px",3000);
+
 		</script>
 <script>
 var certifySwiper = new Swiper('#certify .swiper-container', {
@@ -342,21 +328,21 @@ var certifySwiper = new Swiper('#certify .swiper-container', {
 		  },function(ret, err){
 			  if (ret) {
 			   var html='';
-			  
+
 				for(i in ret){
-				
+
 					item = ret[i];
-					
+
 					html +="<li class='notice_active_ch' onclick=\"toBanner('" + item.link + "')\">";
-					html +='<span  style="background: linear-gradient(to right,#626ec0,#7C15E5);-webkit-background-clip: text;color: transparent;font-style:normal;font-weight:bold;">'+ item.neirong+'</span>' ;			
+					html +='<span  style="background: linear-gradient(to right,#626ec0,#7C15E5);-webkit-background-clip: text;color: transparent;font-style:normal;font-weight:bold;">'+ item.neirong+'</span>' ;
 					html +='</li>';
-					 
+
 				}
-				
+
 				dianshiju.innerHTML = html;
-				
-				
-				
+
+
+
 			  }
 		  });
 	}
@@ -407,11 +393,6 @@ var certifySwiper = new Swiper('#certify .swiper-container', {
           localStorage.setItem('fxpic2',ret.msg.fxpic2);
           localStorage.setItem('fxurl2',ret.msg.fxurl2);
           var bpic = $api.byId('bpic');
-//        imgdz = ret.msg.picurl;
-//        if (ret.msg.pic!='') {
-//          bpic.src = ret.msg.pic;
-//        }
-//        document.getElementById("bpic").onclick = function(){ imgUrl(); };
         } else {
 
 
@@ -441,7 +422,7 @@ var certifySwiper = new Swiper('#certify .swiper-container', {
 /////  初始化执行   E /////
 	//电视剧
 function dianshiju(){
- 
+
  var dianshiju = $api.byId('dianshiju');//html容器
  var dianshijus = $api.byId('dianshijus');//html容器
   api.ajax({
@@ -451,12 +432,12 @@ function dianshiju(){
       if (ret) {
 	   var html='';
 		for(i in ret){
-		
+
 			item = ret[i];
 			//alert(item.point);
 			var wang =item.lianjie+'@'+item.pic+'@'+item.biao+'@'+item.tag;
 			html += "<li class='aui-col-xs-4 pt-list' onclick=\"openWinj('" + wang + "')\">";
-			
+
 			html += '<div class="aui-row">';
 			html += '<img src="' + item.pic + '" alt="' + item.title + '" class="aui-iconfontt" style="width: 95%;height: 4.5rem;">';
 			html +='<span  style="font-size: 12px; position: absolute;right: 10px;margin-top: -4.3rem;padding: 2px 10px;background: rgba(0, 0, 0, 0.54);color: #fff;border-radius: 10px;">' + item.tag + '</span>'
@@ -464,24 +445,24 @@ function dianshiju(){
 			html += '<span class="myui-labell" >【' + item.title + '】</span>';
 			//html +='<span class="s2" style="float: right;color: #ff7b00;font-size: 16px;">' + item.point + '</span>';
 			html += '<span class="myui-label-bb" >' + item.biao + '</span>';
-			html += '</li>';		
+			html += '</li>';
 		}
-		
+
         dianshiju.innerHTML = html;
-		
-		
-		
+
+
+
       }
   });
 }
 	//电视剧
 	//电影
 function dianying(){
- 
+
  var dianying = $api.byId('dianying');//html容器
   //var zuixin1 = $api.byId('zuixinj');//js
  var dianyings = $api.byId('dianyings');//html容器
- 
+
   api.ajax({
         url: api_url+'/app/nav/drb.html',
       method: 'get',
@@ -495,7 +476,7 @@ function dianying(){
 			//alert(item.point);
 			var wang =item.lianjie+'@'+item.pic+'@'+item.biao;
 			html += "<li style='width: 33%;'  class='aui-col-xs-4 pt-list' onclick=\"openWind('" + wang + "')\">";
-			
+
 			html += '<div class="aui-row">';
 			html += '<img src="' + item.pic + '" alt="' + item.title + '" style="width: 90%;max-height: 180px;height: 180px;min-height: 180px;">';
 			html +='<span style="font-size: 12px; position: absolute;right: 15px;margin-top: -8.38rem;padding: 2px 10px;background: rgba(253, 0, 0, 0.68);color: #fff;border-radius: 0px;" >推荐</span>'
@@ -503,10 +484,10 @@ function dianying(){
 			html += '<span class="myui-labell" >【' + item.title + '】</span>';
 			html += '<span Style="width: 110px; class="myui-label-bb" >' + item.biao + '</span>';
 			html += '</li>';
-			 
+
 		}
         dianying.innerHTML = html;
-				
+
       }
   });
 }
@@ -514,7 +495,7 @@ function dianying(){
 
 //综艺
 function zongyi(){
- 
+
  var zongyi = $api.byId('zongyi');//html容器
   //var zuixin1 = $api.byId('zuixinj');//js
 var zongyis = $api.byId('zongyis');//html容器
@@ -524,13 +505,13 @@ var zongyis = $api.byId('zongyis');//html容器
   },function(ret, err){
       if (ret) {
 	   var html='';
-	 
+
 		for(i in ret){
-		 
+
 			item = ret[i];
 			//alert(item.point);
 			html += "<li class='aui-col-xs-4 pt-list' margin-right:2px;' onclick=\"openWinz('" + item.lianjie + "','" + item.pic + "','" + item.biao + "','" + item.tag + "')\">";
-			
+
 			html += '<div class="aui-row">';
 			html += '<img src="' + item.pic + '" alt="' + item.title + '" style="width: 98%;max-height: 105px;height: 105px;min-height: 105px;">';
 			html +='<span style="font-size: 12px; position: absolute;right: 10px;margin-top: -4.7rem;padding: 2px 10px;background: rgba(0, 0, 0, 0.54);color: #fff;border-radius: 10px;" >' + item.tag + '</span>'
@@ -539,38 +520,38 @@ var zongyis = $api.byId('zongyis');//html容器
 			//html +='<span class="s2" style="float: right;color: #ff7b00;font-size: 16px;">' + item.point + '</span>';
 			html += '<span class="myui-label-bb" >' + item.biao + '</span>';
 			html += '</li>';
-			 
+
 		}
-		
+
         zongyi.innerHTML = html;
-		
-		
-		
+
+
+
       }
   });
 }
 //综艺
 //动漫
 function dongman(){
- 
+
  var dongman = $api.byId('dongman');//html容器
   //var zuixin1 = $api.byId('zuixinj');//js
 var dongmans = $api.byId('dongmans')
-  api.ajax({ 
+  api.ajax({
         url: api_url+'/app/nav/drebo',
       method: 'get',
   },function(ret, err){
       if (ret) {
 	   var html='';
-	 
+
 		for(i in ret){
-		  
+
 			item = ret[i];
 			//alert(item.point);
-		
-	
+
+
 			html += "<li class='aui-col-xs-4 pt-list' margin-right:2px;' onclick=\"openWinm('" + item.lianjie + "','" + item.pic + "','" + item.biao + "','" + item.tag + "')\">";
-			
+
 			html += '<div class="aui-row">';
 			html += '<img src="' + item.pic + '" alt="' + item.title + '" style="width: 98%;max-height: 105px;height: 105px;min-height: 105px;">';
 			html +='<span style="font-size: 12px; position: absolute;right: 10px;margin-top: -4.7rem;padding: 2px 10px;background: rgba(0, 0, 0, 0.54);color: #fff;border-radius: 10px;" >' + item.tag + '</span>'
@@ -579,10 +560,10 @@ var dongmans = $api.byId('dongmans')
 			//html +='<span class="s2" style="float: right;color: #ff7b00;font-size: 16px;">' + item.point + '</span>';
 			html += '<span class="myui-label-bb">' + item.biao + '</span>';
 			html += '</li>';
-			 
+
 		}
-        dongman.innerHTML = html;	
-		
+        dongman.innerHTML = html;
+
       }
   });
 }
@@ -592,7 +573,7 @@ var dongmans = $api.byId('dongmans')
 			var delay = 0;
 			if(api.systemType != 'ios') {
 				delay = 300;
-			} 
+			}
 			api.openWin({
 				name: 'juji_win',
 				url: 'juji_win.html',
@@ -600,15 +581,15 @@ var dongmans = $api.byId('dongmans')
 				delay: delay,
 				slidBackEnabled: true,
 				vScrollBarEnabled: false,
-				
+
 			});
 		}
-		
+
 		function chadian() {
 			var delay = 0;
 			if(api.systemType != 'ios') {
 				delay = 300;
-			} 
+			}
 			api.openWin({
 				name: 'dianying_win',
 				url: 'dianying_win.html',
@@ -616,15 +597,15 @@ var dongmans = $api.byId('dongmans')
 				delay: delay,
 				slidBackEnabled: true,
 				vScrollBarEnabled: false,
-				
+
 			});
 		}
-		
+
 		function chazong() {
 			var delay = 0;
 			if(api.systemType != 'ios') {
 				delay = 300;
-			} 
+			}
 			api.openWin({
 				name: 'zongyi_win',
 				url: 'zongyi_win.html',
@@ -632,15 +613,15 @@ var dongmans = $api.byId('dongmans')
 				delay: delay,
 				slidBackEnabled: true,
 				vScrollBarEnabled: false,
-				
+
 			});
 		}
-		
+
 		function chaman() {
 			var delay = 0;
 			if(api.systemType != 'ios') {
 				delay = 300;
-			} 
+			}
 			api.openWin({
 				name: 'dongman_win',
 				url: 'dongman_win.html',
@@ -648,11 +629,11 @@ var dongmans = $api.byId('dongmans')
 				delay: delay,
 				slidBackEnabled: true,
 				vScrollBarEnabled: false,
-				
+
 			});
 		}
 
-	
+
 		/////  电视剧 /////
     function openWinj(name){
     var time = localStorage.getItem('user_time');
@@ -677,7 +658,7 @@ var dongmans = $api.byId('dongmans')
 
             api.openWin({
 				name: 'vplayj_win',
-				url: 'vplayj_win.html',		
+				url: 'vplayj_win.html',
 				pageParam:{name:name},
             });
 
@@ -685,9 +666,9 @@ var dongmans = $api.byId('dongmans')
         VipExpiredHint();
       }
 
-    }   
+    }
 /////  电视剧 /////
-	
+
 			/////  电影 /////
     function openWind(name){
     var time = localStorage.getItem('user_time');
@@ -712,7 +693,7 @@ var dongmans = $api.byId('dongmans')
 
             api.openWin({
 				name: 'vplayd_win',
-				url: 'vplayd_win.html',		
+				url: 'vplayd_win.html',
 				pageParam:{name:name},
             });
 
@@ -720,7 +701,7 @@ var dongmans = $api.byId('dongmans')
         VipExpiredHint();
       }
 
-    }   
+    }
 /////  电影 /////
 
 ///// 综艺 /////
@@ -747,7 +728,7 @@ function openWinz(name){
 
             api.openWin({
 				name: 'vplayz_win',
-				url: 'vplayz_win.html',		
+				url: 'vplayz_win.html',
 				pageParam:{name:name},
             });
 
@@ -755,7 +736,7 @@ function openWinz(name){
         VipExpiredHint();
       }
 
-    }   	
+    }
 ///// 综艺 /////
 
 	/////  动漫 /////
@@ -782,7 +763,7 @@ function openWinz(name){
 
             api.openWin({
 				name: 'vplaym_win',
-				url: 'vplaym_win.html',		
+				url: 'vplaym_win.html',
 				pageParam:{name:name},
             });
 
@@ -790,8 +771,8 @@ function openWinz(name){
         VipExpiredHint();
       }
 
-    }   
-	
+    }
+
 /////  动漫 /////
 
 
@@ -851,7 +832,7 @@ function openWinz(name){
                 name: 'video_win',
                 url: './video_win.html',
                 pageParam: {
-                    url: 'https://m.v.qq.com/search.html?act=102&keyWord='+myval 
+                    url: 'https://m.v.qq.com/search.html?act=102&keyWord='+myval
                 }
             });
 
@@ -859,7 +840,7 @@ function openWinz(name){
         VipExpiredHint();
       }
 
-    }   
+    }
 /////  搜索功能 /////
 
 
